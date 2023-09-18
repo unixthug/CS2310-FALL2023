@@ -5,6 +5,10 @@
 #include <vector>
 
 using namespace std;
+//Function declaration
+void Union(vector<int>, vector<int>);
+void Intersect(vector<int>, vector<int>);
+void Subtract(vector<int>, vector<int>);
 
 void Union(vector <int> a, vector <int> b) {
     vector <int> vunion;
